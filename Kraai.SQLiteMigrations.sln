@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{3049E405-A188-4BE3-8FBD-C4550E5B0973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kraai.SQLiteMigrations.Core", "Kraai.SQLiteMigrations.Core\Kraai.SQLiteMigrations.Core.csproj", "{C5BFCCA0-9910-42C6-8BA5-EE8BEFB36017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kraai.SQLiteMigrations.Android", "Kraai.SQLiteMigrations.Android\Kraai.SQLiteMigrations.Android.csproj", "{6DA2E4B0-4ED8-46D0-AD2E-34C73358348B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kraai.SQLiteMigrations.iOS", "Kraai.SQLiteMigrations.iOS\Kraai.SQLiteMigrations.iOS.csproj", "{86FFB7B3-9D5C-4D5B-85EF-E6D44D19F81C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Kraai.SQLiteMigrations.Shared", "Kraai.SQLiteMigrations.Shared\Kraai.SQLiteMigrations.Shared.shproj", "{AFCB2BF9-A39E-4139-A5C6-6689E1827D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C08124B4-D509-4991-AE68-CFB4038D9307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kraai.SQLiteMigrations.Android.Host", "Kraai.SQLiteMigrations.Android.Host\Kraai.SQLiteMigrations.Android.Host.csproj", "{1A8C6003-B63E-4BB4-85A9-659388B5A4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kraai.SQLiteMigrations.Tests", "Kraai.SQLiteMigrations.Tests\Kraai.SQLiteMigrations.Tests.csproj", "{120889F8-1670-4B22-B814-1E4A9D893B36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{120889F8-1670-4B22-B814-1E4A9D893B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120889F8-1670-4B22-B814-1E4A9D893B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120889F8-1670-4B22-B814-1E4A9D893B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120889F8-1670-4B22-B814-1E4A9D893B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8C6003-B63E-4BB4-85A9-659388B5A4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8C6003-B63E-4BB4-85A9-659388B5A4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8C6003-B63E-4BB4-85A9-659388B5A4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8C6003-B63E-4BB4-85A9-659388B5A4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA2E4B0-4ED8-46D0-AD2E-34C73358348B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA2E4B0-4ED8-46D0-AD2E-34C73358348B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA2E4B0-4ED8-46D0-AD2E-34C73358348B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA2E4B0-4ED8-46D0-AD2E-34C73358348B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FFB7B3-9D5C-4D5B-85EF-E6D44D19F81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FFB7B3-9D5C-4D5B-85EF-E6D44D19F81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FFB7B3-9D5C-4D5B-85EF-E6D44D19F81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FFB7B3-9D5C-4D5B-85EF-E6D44D19F81C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BFCCA0-9910-42C6-8BA5-EE8BEFB36017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BFCCA0-9910-42C6-8BA5-EE8BEFB36017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BFCCA0-9910-42C6-8BA5-EE8BEFB36017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BFCCA0-9910-42C6-8BA5-EE8BEFB36017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5BFCCA0-9910-42C6-8BA5-EE8BEFB36017} = {3049E405-A188-4BE3-8FBD-C4550E5B0973}
+		{6DA2E4B0-4ED8-46D0-AD2E-34C73358348B} = {3049E405-A188-4BE3-8FBD-C4550E5B0973}
+		{86FFB7B3-9D5C-4D5B-85EF-E6D44D19F81C} = {3049E405-A188-4BE3-8FBD-C4550E5B0973}
+		{AFCB2BF9-A39E-4139-A5C6-6689E1827D15} = {3049E405-A188-4BE3-8FBD-C4550E5B0973}
+		{1A8C6003-B63E-4BB4-85A9-659388B5A4FD} = {C08124B4-D509-4991-AE68-CFB4038D9307}
+		{120889F8-1670-4B22-B814-1E4A9D893B36} = {C08124B4-D509-4991-AE68-CFB4038D9307}
+	EndGlobalSection
+EndGlobal

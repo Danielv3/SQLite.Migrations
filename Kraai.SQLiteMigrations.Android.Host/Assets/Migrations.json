@@ -1,0 +1,31 @@
+﻿{
+	"Migrations":
+	[
+		{
+			"Version": "1",
+			"Upgrades": 
+			[
+				"CREATE TABLE...",
+				"CREATE TABLE..."
+			],
+			"Downgrades":
+			[
+				"DROP TABLE...",
+				"DROP TABLE..."
+			]
+		},
+		{
+			"Version": "2",
+			"Upgrades": 
+			[
+				"ALTER TABLE..."
+			],
+			"Downgrades":
+			[
+				"ALTER TABLE..."
+			]
+		},
+
+	]
+}
+
